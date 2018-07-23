@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about__img {
+  width: 100%;
+  display: block;
+}
+
+.about__text {
+  padding: 20px;
+}
+
+.skills {
+  background: gainsboro;
+  padding: 0 20px 20px;
+  flex-shrink: 0;
+  min-width: 280px;
+
+  /* 
+    Fix collapsing margins
+    https://www.sitepoint.com/collapsing-margins/
+   */
+  overflow: auto;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    width: 80%;
+  }
+
+  .about {
+    display: flex;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .row {
+    display: flex;
+  }
+
+  .about {
+    margin: 0 20px 0 0;
+  }
+
+  .skills {
+    flex-shrink: 1;
+    min-width: 240px;
+  }
+}
+
+.bg-gray {
+  background: gainsboro;
+}
+
+.boxlayout {
+  background-color: gainsboro;
+  padding: 20px;
+  margin: 20px;
+}
+
+.btn {
+  width: 10em;
+  padding: 4px 12px;
+  background: deepskyblue;
+  color: white;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn:hover {
+  background: darkred;
+}
+
+.header {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.col1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  background-color: deepskyblue;
+  display: inline-block;
+  border-radius: 4px;
+  color: white;
+  padding: 4px 10px;
+  margin: 5px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shadow {
+  box-shadow: 0 11px 22px -6px rgba(0, 0, 0, 0.4);
+}
+
+.white {
+  color: white;
+}
+
+.whoami {
+  text-align: center;
+}
