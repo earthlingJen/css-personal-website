@@ -7,29 +7,5 @@
 @import "whoami";
 @import "_footer";
 
-@media screen and (min-width: 768px) {
-  body {
-    width: 80%;
-  }
-
-  .about {
-    display: flex;
-    margin-bottom: 20px;
-  }
-
-  .whoami {
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .row {
-    display: flex;
-  }
-
-  .about {
-    margin: 0 20px 0 0;
-  }
-
-  .whoami {
-  }
-}
+@import "_desktopscreen";
+@import "_tabletscreen";
