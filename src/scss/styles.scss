@@ -13,6 +13,7 @@ body {
 .about__img {
   width: 100%;
   display: block;
+  border-radius: 50px;
 }
 
 .about__text {
@@ -73,26 +74,7 @@ body {
   margin: 20px;
 }
 
-.btn {
-  width: 10em;
-  padding: 4px 12px;
-  background: deepskyblue;
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  display: inline-block;
-  border-radius: 4px;
-  margin: 5px;
-}
-
-.btn:hover {
-  background: gray;
-}
-
-.header {
-  padding: 10px;
-  margin-bottom: 20px;
-}
+@import "_buttons";
 
 .col1 {
   display: flex;
@@ -100,19 +82,7 @@ body {
   flex-direction: column;
 }
 
-.list {
-  list-style: none;
-  padding: 0;
-}
-
-.list li {
-  background-color: deepskyblue;
-  display: inline-block;
-  border-radius: 4px;
-  color: white;
-  padding: 4px 10px;
-  margin: 5px;
-}
+@import "_list";
 
 .nav {
   display: flex;
