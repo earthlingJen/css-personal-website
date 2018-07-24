@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/earthlingJen/css-personal-website/issues"
   },
-  "homepage": "https://github.com/earthlingJen/css-personal-website#readme"
+  "homepage": "https://github.com/earthlingJen/css-personal-website#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.2"
+  }
 }
