@@ -1,0 +1,24 @@
+{
+  "name": "css-personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/earthlingJen/css-personal-website.git"
+  },
+  "author": "Jennifer Winkler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/earthlingJen/css-personal-website/issues"
+  },
+  "homepage": "https://github.com/earthlingJen/css-personal-website#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.2",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}
