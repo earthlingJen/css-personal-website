@@ -1,4 +1,4 @@
-@import "header";
+@import "_header";
 
 * {
   box-sizing: border-box;
@@ -94,10 +94,6 @@ body {
 .row1 {
   display: flex;
   flex-wrap: wrap;
-}
-
-.shadow {
-  box-shadow: 0 11px 22px -6px rgba(0, 0, 0, 0.4);
 }
 
 .white {
