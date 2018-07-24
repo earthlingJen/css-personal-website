@@ -1,4 +1,25 @@
 // für allgemeingültige Dateien
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
 .bg-gray {
   background: gainsboro;
+}
+
+.white {
+  color: white;
+}
+
+.boxlayout {
+  background-color: gainsboro;
+  padding: 20px;
+  margin: 20px;
 }
