@@ -9,20 +9,12 @@ body {
   margin: 0 auto;
   font-family: sans-serif;
 }
-
-.about__img {
-  width: 100%;
-  display: block;
-  border-radius: 50px;
-}
-
-.about__text {
-  padding: 20px;
-}
+@import "_aboutsection";
 
 .skills {
   background: gainsboro;
-  padding: 0 20px 20px;
+  border-radius: 50px;
+  padding: 10px 20px 20px;
   flex-shrink: 0;
   min-width: 280px;
   /* 
@@ -45,6 +37,7 @@ body {
   .whoami {
   }
 }
+@import "_base";
 
 @media screen and (min-width: 1024px) {
   .row {
@@ -62,10 +55,6 @@ body {
 
   .whoami {
   }
-}
-
-.bg-gray {
-  background: gainsboro;
 }
 
 .boxlayout {
