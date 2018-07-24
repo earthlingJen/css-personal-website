@@ -5,6 +5,7 @@
 body {
   width: 100%;
   margin: 0 auto;
+  font-family: sans-serif;
 }
 
 .about__img {
@@ -38,6 +39,9 @@ body {
     display: flex;
     margin-bottom: 20px;
   }
+
+  .whoami {
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -52,6 +56,9 @@ body {
   .skills {
     flex-shrink: 1;
     min-width: 240px;
+  }
+
+  .whoami {
   }
 }
 
@@ -70,9 +77,11 @@ body {
   padding: 4px 12px;
   background: deepskyblue;
   color: white;
-  font-family: sans-serif;
   text-decoration: none;
   text-align: center;
+  display: inline-block;
+  border-radius: 4px;
+  margin: 5px;
 }
 
 .btn:hover {
@@ -108,6 +117,7 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding: 20px;
 }
 
 .row1 {
