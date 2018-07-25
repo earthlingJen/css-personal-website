@@ -12,4 +12,8 @@
     https://www.sitepoint.com/collapsing-margins/
    */
   overflow: auto;
+
+  &:hover {
+    transform: rotateZ(45deg);
+  }
 }
