@@ -1,17 +1,15 @@
 .skills {
   background: gainsboro;
   border-radius: 50px;
-  padding: 10px 20px 20px;
+  padding: 10px 20px;
   flex-shrink: 0;
   min-width: 280px;
+  flex-shrink: 1;
+  min-width: 240px;
+
   /* 
     Fix collapsing margins
     https://www.sitepoint.com/collapsing-margins/
    */
   overflow: auto;
-}
-
-.skills {
-  flex-shrink: 1;
-  min-width: 240px;
 }
